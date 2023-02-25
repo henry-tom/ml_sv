@@ -11,7 +11,7 @@ if(Meteor.isServer) {
 Router.route('/test', function () {
   var req = this.request;
   var res = this.response;
-  res.end('hello shuy from free meteor js the server \n');
+  res.end('hello asfasdf fd from free meteor js the server \n');
 }, {where: 'server'});
 
 Router.route('/users',{where: 'server'})
